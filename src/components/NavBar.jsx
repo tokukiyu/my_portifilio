@@ -15,21 +15,10 @@ export default function NavBar() {
 
   useEffect(() => {
     window.addEventListener("scroll", handleScroll);
-    window.addEventListener("resize", () => {
-      if (window.innerWidth < 800) {
-        // Remove 'px' from 800
-        document.querySelector(".menu-list").style.display = "none";
-      }
-    });
 
     // Don't forget to remove the event listener when the component unmounts
     return () => {
       window.removeEventListener("scroll", handleScroll);
-      window.removeEventListener("resize", () => {
-        if (window.innerWidth < 800) {
-          document.querySelector(".menu-list").style.display = "none";
-        }
-      });
     };
   }, []);
 
