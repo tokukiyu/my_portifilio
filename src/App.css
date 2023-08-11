@@ -216,7 +216,7 @@ iframe {
 }
 
 .inters .profile-land {
-  top: -17%;
+  top: -13%;
 }
 .Card_list {
   margin: 5px auto;
@@ -233,7 +233,6 @@ iframe {
   padding-top: 10px;
   border-radius: 8px;
   overflow: hidden;
-
 }
 
 .slide h2,
@@ -246,7 +245,7 @@ iframe {
   font-family: "Roboto", sans-serif;
   color: rgb(184, 184, 184);
 }
-.slide span{
+.slide span {
   font-family: "Roboto", sans-serif;
   color: rgb(117, 117, 117);
 }
@@ -274,7 +273,6 @@ iframe {
   min-height: 100vh;
   border-bottom: 1px solid gray;
   box-shadow: 0px 0px 9px 1px gray;
- 
 }
 .about-offer {
   width: 90%;
@@ -287,6 +285,9 @@ iframe {
 }
 
 @media screen and (max-width: 780px) {
+  .nav-bar nav {
+    width: 90%;
+  }
   .content {
     padding: 3rem 0;
     width: 96%;
@@ -295,25 +296,26 @@ iframe {
     margin-left: 0;
     padding: 0;
   }
-  .fixed ul li{
+  .fixed ul li {
     padding-left: 0;
   }
   .fixed {
     width: 90%;
     margin: auto;
   }
-  .Logo{
+  .Logo {
     transform: translateY(-20px);
   }
 
   iframe {
-    width: 100%;
+    width: 95%;
+    min-width: 80vw;
   }
   .profile-land {
     margin-top: 30%;
     width: 80%;
   }
-  .try .profile-land{
+  .try .profile-land {
     width: 90%;
   }
   .content .profile-land {
@@ -324,7 +326,7 @@ iframe {
     margin-top: -20%;
   }
   .inters .profile-land {
-    top: -8%;
+    top: -6%;
   }
   .proj .profile-land,
   .exper .profile-land {

@@ -66,7 +66,13 @@ export default function FeaturedProject() {
           ))}
         </Slider>
       </Card>
-      <button className="btn-portifilio" style={{ backgroundColor: "" }}>
+      <button
+        onClick={() => {
+          window.location.href = "/projects";
+        }}
+        className="btn-portifilio"
+        style={{ backgroundColor: "" }}
+      >
         More projects
       </button>
       <Langtools />

@@ -32,6 +32,11 @@ export default function Interests() {
             <img src="/Images/nlp.png" />
           </Card>
           <Card>
+            <h1>AI based online business</h1>
+            <p>
+              I wan to participate in AI based Online business, e-commerce and
+              other financial services
+            </p>
             <img src="/Images/ecom1.5-seller.gif" />
           </Card>
         </div>
