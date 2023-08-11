@@ -33,8 +33,8 @@ export default function Projects() {
   return (
     <>
       <HeaderProj />
-      <div className="content">
-        <div style={{ top: "-13%" }} className="profile-land">
+      <div className="content proj">
+        <div  className="profile-land">
           <img src="/Images/profile-pic.jpg" alt="profile pic" />
         </div>
         <h1 id="experience">Projects</h1>

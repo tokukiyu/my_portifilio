@@ -99,6 +99,7 @@ body {
 }
 .profile-land h3 {
   font-size: 1.5625rem;
+  color: rgb(221, 221, 221);
 }
 .close-button,
 .btn-portifilio {
@@ -209,9 +210,11 @@ iframe {
   top: -6%;
   left: 20%;
 }
+.proj .profile-land,
 .exper .profile-land {
   top: -13%;
 }
+
 .inters .profile-land {
   top: -17%;
 }
@@ -310,6 +313,9 @@ iframe {
     margin-top: 30%;
     width: 80%;
   }
+  .try .profile-land{
+    width: 90%;
+  }
   .content .profile-land {
     left: 10%;
     top: -3%;
@@ -320,6 +326,7 @@ iframe {
   .inters .profile-land {
     top: -8%;
   }
+  .proj .profile-land,
   .exper .profile-land {
     top: -5%;
   }
