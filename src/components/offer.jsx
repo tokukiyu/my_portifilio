@@ -16,7 +16,7 @@ export default function Offer(props) {
         block: "center",
       });
     }
-  }, []);
+  }, [props.order]);
   return (
     <>
       <div className="offer">

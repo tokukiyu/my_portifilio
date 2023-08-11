@@ -1,8 +1,6 @@
 /* eslint-disable react/jsx-no-comment-textnodes */
 /* eslint-disable jsx-a11y/alt-text */
 import React, { useEffect, useState } from "react";
-import Landing from "./landing";
-import { Card } from "reactstrap";
 import { projects } from "./FeaturedProject";
 
 export function HeaderProj() {
