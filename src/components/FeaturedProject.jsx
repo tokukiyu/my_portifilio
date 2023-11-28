@@ -14,11 +14,18 @@ export const projects = [
     desc: "This is final implementation project of CBTP project",
   },
   {
-    image: "/Images/eCommerce-website.jpg",
+    image: "/Images/5gada2.png",
     title: "5Gada Online Shopping platform",
-    url: "https://5gada.ga",
+    url: "https://5gada.com",
     date: "Jun, 2022 - present",
     desc: "E-commerce application for promoting cultural product for selling and buying, it is still under development",
+  },
+  {
+    image: "/public/Images/bot.jpg",
+    title: "JU Exam Bot ",
+    url: "https://5gada.com",
+    date: "Jun, 2022 - present",
+    desc: "Exam bot for students which helps student take exam online and can access and know more about previous year exams",
   },
   {
     image: "/Images/ecom1.5-seller.gif",

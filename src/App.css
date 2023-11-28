@@ -260,6 +260,7 @@ iframe {
   border-radius: 5px;
   cursor: pointer;
   min-height: 265px;
+  object-fit: cover;
   max-height: 270px;
 }
 .offer {
