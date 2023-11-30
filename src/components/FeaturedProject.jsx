@@ -21,10 +21,10 @@ export const projects = [
     desc: "E-commerce application for promoting cultural product for selling and buying, it is still under development",
   },
   {
-    image: "/public/Images/bot.jpg",
+    image: "/Images/bot.jpg",
     title: "JU Exam Bot ",
-    url: "https://5gada.com",
-    date: "Jun, 2022 - present",
+    url: "https://t.me/JU_exam_store_bot",
+    date: "Oct, 2023 - present",
     desc: "Exam bot for students which helps student take exam online and can access and know more about previous year exams",
   },
   {

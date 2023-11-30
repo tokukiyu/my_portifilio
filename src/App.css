@@ -210,7 +210,9 @@ iframe {
   top: -6%;
   left: 20%;
 }
-.proj .profile-land,
+.proj .profile-land {
+  top: -10%;
+}
 .exper .profile-land {
   top: -13%;
 }
