@@ -34,7 +34,7 @@ export default function Projects() {
     <>
       <HeaderProj />
       <div className="content proj">
-        <div  className="profile-land">
+        <div className="profile-land">
           <img src="/Images/profile-pic.jpg" alt="profile pic" />
         </div>
         <h1 id="experience">Projects</h1>
@@ -42,7 +42,8 @@ export default function Projects() {
           {projects.map((image, index) => (
             <div key={index} className="slide card">
               <h2>{image.title}</h2>
-              <span>{image.date}</span>
+              <span>{image.date}</span> <br />
+              <span>{image.role}</span>
               <p>{image.desc}</p>
               <img
                 onClick={() => {

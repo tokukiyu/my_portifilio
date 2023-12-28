@@ -7,24 +7,36 @@ import Langtools from "./lang_Tools";
 import LatestProjectVideo from "./LatestProjectVideo";
 export const projects = [
   {
-    image: "/Images/edir.png",
-    title: "Edir management system CPBTP project",
-    url: "http://localhost:8080/edir",
-    date: "May, 2023 - Jul,2023",
-    desc: "This is final implementation project of CBTP project",
-  },
-  {
     image: "/Images/5gada2.png",
     title: "5Gada Online Shopping platform",
     url: "https://5gada.com",
     date: "Jun, 2022 - present",
+    role: "founder",
     desc: "E-commerce application for promoting cultural product for selling and buying, it is still under development",
   },
+  {
+    image: "/Images/hayuu book store logo last edited.png",
+    title: "HayuBk e-book, handout and studying material Hub",
+    url: "https://hayubk.5gada.com",
+    date: "Nov, 2023 - present",
+    role: "co-founder",
+    desc: "e-book platform where everybody can search and get any book they want and read online or download, where anybody can contribute material and build their profile, get best rank and get reward",
+  },
+  {
+    image: "/Images/edir.png",
+    title: "Edir management system CPBTP project",
+    url: "http://localhost:8080/edir",
+    date: "May, 2023 - Jul,2023",
+    role: "developer",
+    desc: "This is final implementation project of CBTP project",
+  },
+
   {
     image: "/Images/bot.jpg",
     title: "JU Exam Bot ",
     url: "https://t.me/JU_exam_store_bot",
     date: "Oct, 2023 - present",
+    role: "co-founder",
     desc: "Exam bot for students which helps student take exam online and can access and know more about previous year exams",
   },
   {
@@ -32,6 +44,7 @@ export const projects = [
     title: "Cosmetics E-commerce ",
     date: "Jul, 2023 - present",
     url: null,
+    role: null,
     desc: "Currently under development, I am happy I am in this development ",
   },
 ];
@@ -58,7 +71,8 @@ export default function FeaturedProject() {
           {projects.map((image, index) => (
             <div key={index} className="slide">
               <h2>{image.title}</h2>
-              <span>{image.date}</span>
+              <span>{image.date}</span> <br />
+              <span>{image.role}</span>
               <p>{image.desc}</p>
               <img
                 onClick={() => {
