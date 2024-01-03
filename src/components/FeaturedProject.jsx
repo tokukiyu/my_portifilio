@@ -15,7 +15,7 @@ export const projects = [
     desc: "E-commerce application for promoting cultural product for selling and buying, it is still under development",
   },
   {
-    image: "/Images/hayuu book store logo last edited.png",
+    image: "/Images/hayubk.png",
     title: "HayuBk e-book, handout and studying material Hub",
     url: "https://hayubk.5gada.com",
     date: "Nov, 2023 - present",
