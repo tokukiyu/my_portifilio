@@ -37,7 +37,8 @@ function Home() {
 function App() {
   return (
     <>
-    {/* comment */}
+      {/* comment */}
+
       <NavBar />
       <RoutMe />
       <Footer />
